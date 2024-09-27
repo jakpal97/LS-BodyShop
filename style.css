@@ -584,6 +584,9 @@ body {
 
 /* Max-width: 768px */
 @media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
 	/* Nagłówek */
 	.menu {
 		display: none;
@@ -724,6 +727,9 @@ body {
 
 /* Max-width: 480px */
 @media (max-width: 480px) {
+	body {
+		overflow-x: hidden;
+	}
 	/* Sekcja usług */
 	.services-wrapper {
 		width: 90%;
