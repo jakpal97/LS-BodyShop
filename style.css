@@ -233,14 +233,14 @@ body {
 	transform: translate(-50%, -50%) scale(0.9);
 	background-color: #fff;
 	padding: 30px;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); 
-	border-radius: 10px; 
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
 	z-index: 1000;
-	width: 80%; 
+	width: 80%;
 	max-width: 500px;
 	opacity: 0;
 	visibility: hidden;
-	transition: all 0.4s ease; 
+	transition: all 0.4s ease;
 }
 
 .popup.active {
@@ -255,7 +255,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.7); 
+	background: rgba(0, 0, 0, 0.7);
 	z-index: 999;
 	opacity: 0;
 	visibility: hidden;
@@ -271,18 +271,19 @@ body {
 	font-size: 1.5rem;
 	font-weight: bold;
 	margin-bottom: 10px;
-	text-align: center; 
+	text-align: center;
 }
 
 .popup-des {
 	padding: 20px 0;
-	line-height: 1.6; 
-	text-align: justify; 
+	line-height: 1.6;
+	text-align: justify;
+}
 
 .popup-btn {
 	font-weight: 600;
-	padding: 10px 20px; 
-	background-color: #007bff;  
+	padding: 10px 20px;
+	background-color: #007bff;
 	color: white;
 	border: none;
 	cursor: pointer;
@@ -290,7 +291,7 @@ body {
 }
 
 .popup-btn:hover {
-	background-color: rgb(111, 10, 10); 
+	background-color: rgb(111, 10, 10);
 }
 
 /* Sekcja "Jak pracujemy" */
