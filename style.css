@@ -733,12 +733,15 @@ body {
 
 	/* Hero Section */
 	.hero-content h1 {
-		font-size: 2.3rem;
-		margin-top: 120px;
+		font-size: 1.5rem;
+		margin-top: 60px;
 	}
 	.hero-content p {
-		font-size: 1rem;
+		font-size: 0.9rem;
 		margin: 0 10px 40px 10px;
+	}
+	.header {
+		margin-bottom: 20px;
 	}
 
 	/* Sekcja usług */
@@ -850,6 +853,10 @@ body {
 @media (max-width: 480px) {
 	body {
 		overflow-x: hidden;
+	}
+	.header {
+		margin-bottom: 20px;
+		z-index: 50;
 	}
 	/* Sekcja usług */
 	.services-wrapper {
