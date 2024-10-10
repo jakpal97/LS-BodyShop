@@ -132,10 +132,12 @@ window.onload = function () {
 // npm run dev  Pokazuje przycisk po przewinięciu o 200px
 window.onscroll = function () {
 	const button = document.getElementById('back-to-top')
-	if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-		button.style.display = 'block'
-	} else {
-		button.style.display = 'none'
+	if (window.innerWidth > 768) {
+		if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+			button.style.display = 'block'
+		} else {
+			button.style.display = 'none'
+		}
 	}
 }
 
