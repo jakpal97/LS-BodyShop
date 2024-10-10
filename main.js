@@ -18,30 +18,34 @@ hamburger.addEventListener('click', () => {
 
 const services = {
 	service1: {
-		title: 'Usługa 1 - Naprawa Silnika',
-		description: 'Nasza usługa naprawy silnika obejmuje pełną diagnostykę, wymianę części oraz przegląd techniczny.',
+		title: 'INSURANCE ACCIDENT REPAIR',
+		description:
+			'Provides comprehensive, insurance-covered vehicle repairs after an accident. Our expert team ensures a seamless process, restoring your car to its pre-accident condition with precision and care.',
 	},
 	service2: {
-		title: 'Usługa 2 - Lakierowanie',
+		title: 'FULL CAR RESPRAY',
 		description:
-			'Oferujemy kompleksowe usługi lakiernicze, w tym lakierowanie całościowe oraz miejscowe naprawy powłoki lakierniczej.',
+			'Offers a complete paint refresh for your vehicle, restoring its original shine or transforming its color entirely. Our professional respray service ensures a flawless, factory-quality finish that lasts for years.',
 	},
 	service3: {
-		title: 'Usługa 3 - Wymiana Opon',
-		description: 'W ramach tej usługi oferujemy wymianę opon letnich i zimowych oraz ich wyważenie.',
+		title: 'HEADLIGHT RESTORATION',
+		description:
+			'Revitalizes dull, hazy headlights to enhance visibility and safety on the road. Our specialized service removes oxidation and restores clarity, ensuring your headlights look brand new and perform optimally.',
 	},
 	service4: {
-		title: 'Usługa 4 - Serwis Klimatyzacji',
+		title: 'CAR DETAILING',
 		description:
-			'Oferujemy pełen serwis klimatyzacji, w tym uzupełnianie czynnika oraz diagnostykę ewentualnych nieszczelności.',
+			'Provides a thorough cleaning and restoration of your vehicles interior and exterior, ensuring it looks and feels like new. Our meticulous process includes polishing, waxing, and deep cleaning to enhance your cars appearance and protect its surfaces.',
 	},
 	service5: {
-		title: 'Usługa 5 - Naprawa Układu Hamulcowego',
-		description: 'Nasza usługa obejmuje pełną naprawę układu hamulcowego, w tym wymianę tarcz i klocków hamulcowych.',
+		title: 'DENT & SCRATCH FIX',
+		description:
+			'Specializes in the seamless repair of dents and scratches on your vehicle, restoring its original appearance without the need for costly repainting. Our skilled technicians use advanced techniques to ensure a flawless finish, bringing your car back to life.',
 	},
 	service6: {
-		title: 'Usługa 6 - Geometria Kół',
-		description: 'Zapewniamy precyzyjną regulację geometrii kół, co poprawia bezpieczeństwo jazdy i zużycie opon.',
+		title: 'RUST REPAIR & WELDING SOLUTIONS',
+		description:
+			'Offers expert restoration services to eliminate rust and strengthen your vehicle’s structure through high-quality welding. Our experienced team ensures that your car is not only safe and reliable but also looks great, extending its lifespan and enhancing its value.',
 	},
 }
 
