@@ -551,7 +551,7 @@ body {
 }
 .slider-img {
 	min-width: 100%;
-	height: auto;
+	max-height: 700px;
 	object-fit: cover;
 }
 
