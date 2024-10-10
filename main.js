@@ -128,3 +128,19 @@ window.addEventListener('resize', function () {
 window.onload = function () {
 	changeImage()
 }
+
+// npm run dev  Pokazuje przycisk po przewinięciu o 200px
+window.onscroll = function () {
+	const button = document.getElementById('back-to-top')
+	if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+		button.style.display = 'block'
+	} else {
+		button.style.display = 'none'
+	}
+}
+
+// Funkcja do przewijania na górę
+document.getElementById('back-to-top').onclick = function (e) {
+	e.preventDefault() // Zapobiega domyślnemu działaniu
+	window.scrollTo({ top: 0, behavior: 'smooth' }) // Płynne przewijanie
+}
