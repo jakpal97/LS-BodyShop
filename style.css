@@ -769,20 +769,20 @@ body {
 #back-to-top {
 	position: fixed;
 	bottom: 30px;
-	right: 30px; 
-	background-color: black; 
-	color: white; 
+	right: 30px;
+	background-color: black;
+	color: white;
 	padding: 0 20px 20px;
-	border-radius: 2000px; 
-	text-decoration: none; 
-	font-size: 2.5rem; 
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+	border-radius: 2000px;
+	text-decoration: none;
+	font-size: 2.5rem;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 	z-index: 1000px;
 	font-weight: bold;
 }
 
 #back-to-top:hover {
-	background-color: rgb(111, 10, 10);  
+	background-color: rgb(111, 10, 10);
 }
 
 /* Max-width: 768px */
@@ -942,6 +942,9 @@ body {
 		width: 11px;
 		height: 11px;
 	}
+	#back-to-top {
+		display: none; /* Ukrywa przycisk */
+	}
 }
 
 /* Max-width: 480px */
@@ -1024,5 +1027,8 @@ body {
 	.timeline__point {
 		width: 9px;
 		height: 9px;
+	}
+	#back-to-top {
+		display: none; /* Ukrywa przycisk */
 	}
 }
